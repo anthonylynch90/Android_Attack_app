@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false" >
+    <item android:drawable="@drawable/dephone" android:duration="200" />
+    <item android:drawable="@drawable/dephone1" android:duration="200" />
+    <item android:drawable="@drawable/dephone2" android:duration="200" />
+    <item android:drawable="@drawable/dephone3" android:duration="200" />
+    <item android:drawable="@drawable/dephone4" android:duration="200" />
+    <item android:drawable="@drawable/dephone5" android:duration="200" />
+    <item android:drawable="@drawable/dephone4" android:duration="200" />
+    <item android:drawable="@drawable/dephone6" android:duration="200" />
+    <item android:drawable="@drawable/dephone7" android:duration="200" />
+    <item android:drawable="@drawable/dephone8" android:duration="200" />
+    <item android:drawable="@drawable/dephone9" android:duration="200" />
+    <item android:drawable="@drawable/dephone10" android:duration="200" />
+    <item android:drawable="@drawable/dephone11" android:duration="200" />
+    <item android:drawable="@drawable/dephone12" android:duration="200" />
+     <item android:drawable="@drawable/dephone13" android:duration="200" />
+    <item android:drawable="@drawable/dephone14" android:duration="200" />
+    <item android:drawable="@drawable/dephone4" android:duration="200" />
+</animation-list>

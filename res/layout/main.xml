@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+ 	android:id="@+id/scroll"
+ 	android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/firstName"/>
+		<EditText android:id="@+id/firstName"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"/>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/secondName"/> 
+		<EditText android:id="@+id/secondName"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"/>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/address" />
+		<EditText android:id="@+id/address"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:minLines="3"
+			android:scrollbars="vertical"
+			android:gravity="top"/>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/security_pin" />
+		<EditText android:id="@+id/securityPin"
+			android:layout_width="fill_parent"
+			android:maxLength="4"
+			android:password="true"
+			android:inputType="number"
+			android:layout_height="wrap_content"/>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/re_enter_pin" />
+		<EditText android:id="@+id/securityPin2"
+			android:layout_width="fill_parent"
+			android:maxLength="4"
+			android:password="true"
+			android:inputType="number"
+			android:layout_height="wrap_content"/>
+		<Button
+			android:id="@+id/save"
+			android:maxLength="4"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="@string/save"/> 
+			    
+</LinearLayout>
+</ScrollView>

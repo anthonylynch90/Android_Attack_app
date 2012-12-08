@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false" >
+    <item android:drawable="@drawable/email1" android:duration="500" />
+    <item android:drawable="@drawable/email2" android:duration="500" />
+    <item android:drawable="@drawable/email3" android:duration="500" />
+    <item android:drawable="@drawable/email4" android:duration="500" />
+    <item android:drawable="@drawable/email5" android:duration="500" />
+    <item android:drawable="@drawable/email6" android:duration="500" />
+    <item android:drawable="@drawable/email7" android:duration="500" />
+    <item android:drawable="@drawable/email8" android:duration="500" />
+    <item android:drawable="@drawable/email9" android:duration="500" />
+    <item android:drawable="@drawable/email10" android:duration="500" />
+    <item android:drawable="@drawable/email11" android:duration="500" />
+    <item android:drawable="@drawable/email12" android:duration="500" />
+</animation-list>

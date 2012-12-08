@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list  android:oneshot="false" xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/phone" android:duration="50" />
+    <item android:drawable="@drawable/phone1" android:duration="50" />
+    <item android:drawable="@drawable/phone2" android:duration="50" />
+    <item android:drawable="@drawable/phone3" android:duration="50" />
+    <item android:drawable="@drawable/phone4" android:duration="50" />
+    <item android:drawable="@drawable/phone5" android:duration="50" />
+ </animation-list>

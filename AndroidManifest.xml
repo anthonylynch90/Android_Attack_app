@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.attack.android"
+      android:versionCode="1"
+      android:versionName="1.0"
+      android:debuggable="true">
+    <uses-sdk android:minSdkVersion="4" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_VIDEO"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <action android:name="android.intent.action.MAIN" />
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    
+     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <application android:icon="@drawable/banner" android:label="@string/app_name">
+        <activity android:name=".SignUp"
+			android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SubMenuViews"
+                  android:label="@string/app_name"/>
+        <activity android:name=".AnimationActivity"
+                  android:label="@string/app_name"/>
+        <activity android:name=".Settings"
+                  android:label="@string/app_name"/>
+        <activity android:name=".LoadPage"
+                  android:label="@string/app_name"/>
+        <activity android:name=".CameraView"
+        		  android:screenOrientation="portrait"
+				  android:label="@string/app_name" />
+		 <activity android:name=".Contacts"
+				  android:label="@string/app_name" />
+		<activity android:name=".EmailForm"
+				  android:label="@string/app_name" />
+		<activity android:name=".EmailContacts"
+				  android:label="@string/app_name" />
+		<service android:enabled="true" android:name=".SMS" />
+		<service android:enabled="true" android:name=".AudioRecorder" />
+    </application>
+</manifest>
